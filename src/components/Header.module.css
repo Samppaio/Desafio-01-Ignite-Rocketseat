@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: var(--gray-700);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144rem;
+  height: 20rem;
+}
