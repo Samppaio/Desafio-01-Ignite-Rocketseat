@@ -1,5 +1,6 @@
 import styles from "./Main.module.css";
 import Plus from "../images/plus.svg";
+import Clipboard from "../images/Clipboard.svg";
 import { Task } from "./Task";
 import { ChangeEvent, useState } from "react";
 
@@ -103,11 +104,15 @@ export function Main() {
               />
             ))
           ) : (
-            <p>
-              Você ainda não tem tarefas cadastradas
-              <br />
-              Crie tarefas e organize seus itens a fazer
-            </p>
+            <>
+              <img src={Clipboard} />
+              <p className={styles.first}>
+                Você ainda não tem tarefas cadastradas
+              </p>
+              <p className={styles.second}>
+                Crie tarefas e organize seus itens a fazer
+              </p>
+            </>
           )}
         </div>
       </div>

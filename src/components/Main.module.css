@@ -130,10 +130,30 @@ form button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 2rem;
   width: 100%;
 }
 
-.tasksList p {
-  color: var(--gray-100);
+.tasksList img {
+  width: 5.6rem;
+  height: 5.6rem;
+  margin-top: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.first {
+  color: var(--gray-300);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 140%;
+  text-align: center;
+}
+
+.second {
+  color: var(--gray-300);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 140%;
+  text-align: center;
 }
