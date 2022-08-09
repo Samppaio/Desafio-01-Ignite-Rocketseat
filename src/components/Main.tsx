@@ -61,6 +61,10 @@ export function Main() {
     });
 
     setTasks(deletedTask);
+
+    if (completedCount) {
+      setCompletedCount(completedCount - 1);
+    }
   }
 
   return (
